@@ -54,7 +54,7 @@
     "@feathersjs/errors": "3.0.0",
     "@feathersjs/authentication-client": "1.0.0",
     "@feathersjs/primus-client": "1.0.0",
-    "@feathersjs/rest-client": "https://github.com/stealify/feathers-rest-client",
+    "@feathersjs/rest-client": "https://github.com/stealify/feathers-rest-client#master",
     "@feathersjs/socketio-client": "https://github.com/frank-dspeed/socketio-client#patch-1"
   },
   "devDependencies": {
