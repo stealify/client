@@ -19,7 +19,7 @@
   "engines": {
     "node": ">= 6"
   },
-  "main": "lib.js",
+  "main": "index.js",
   "scripts": {
     "clean": "shx rm -rf dist/ && shx mkdir -p dist",
     "reinstall": "shx rm -rf node_modules && npm install",
@@ -54,8 +54,8 @@
     "@feathersjs/errors": "3.0.0",
     "@feathersjs/authentication-client": "1.0.0",
     "@feathersjs/primus-client": "1.0.0",
-    "@feathersjs/rest-client": "1.3.0",
-    "@feathersjs/socketio-client": "1.0.0"
+    "@feathersjs/rest-client": "https://github.com/frank-dspeed/rest-client#patch-1",
+    "@feathersjs/socketio-client": "https://github.com/frank-dspeed/socketio-client#patch-1"
   },
   "devDependencies": {
     "@feathersjs/commons": "^1.2.0",
